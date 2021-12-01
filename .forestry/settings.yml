@@ -4,12 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: document
   path: src/articles/instrumap.md
   label: Instrumap
   match: "**/*"
-- type: heading
-  label: Content
 - type: directory
   path: src/posts
   label: Posts
